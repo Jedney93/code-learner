@@ -10,3 +10,37 @@ p{
     color: brown;
     font-size: 75px;
 }
+input{
+    display:block;
+    border: 3px solid red;
+    padding: 3px;
+}
+ol:hover{
+    background-color: blanchedalmond;
+    width: 25%;
+    color: blueviolet;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(230, 14, 158);
+}
+input:focus{
+    color: rgb(10, 243, 96);
+    font-size: 20px;
+}
+li:first-child{
+  color: aqua;
+}
+li:last-child{
+    color: cornflowerblue;
+}
+li:nth-child(2n){
+    color: blueviolet;
+}
+
+h3::after {
+    content: 'not easy' ;
+}
