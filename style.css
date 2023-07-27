@@ -2,13 +2,18 @@ p{
     color: rgb(239, 68, 6);
     font-size: 50px;
 }
-.test1{
-    color: rgb(34, 183, 79);
-    font-size: 200px;
+a{
+    font-size: 30px;
+    margin-left: 100px;
 }
-#test2{
-    color: rgb(46, 243, 6);
-    font-size: 75px;
+img{
+    height: 70px;
+    width: 200px;
+    margin-left: 200px ;
+    padding: 10px;
+
+}
+
 }
 input{
     display:block;
@@ -88,4 +93,11 @@ h3::after {
     display: block;
     margin-bottom: 50px 40px;
     padding-bottom: 50px;
+}
+audio{
+    border: 10px solid blue;
+
+}
+video{
+    border: 5px solid gray;
 }
