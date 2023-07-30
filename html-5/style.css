@@ -1,0 +1,58 @@
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: 2px solid blue;
+    padding: 10px;
+    border-radius: 3px;
+}
+nav{
+    border: 1px solid lightgray;
+}
+nav > ul      {
+    
+    display: flex;
+}
+nav li  {
+    list-style: none;
+    margin-right: 5px;
+    padding: 5px;
+    
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight:700;
+    
+}
+nav li a:hover{
+    background-color: rgb(22, 28, 28);
+    padding: 5px;
+    color: aqua;
+    border-radius: 5px;
+
+}
+.drop{
+    display: none;
+}
+nav > ul >li:hover >ul {
+    display: block;
+    position: absolute;
+    padding: 0 20px;
+    margin: 0;
+
+}
+nav > ul >li >ul > li:hover > ul {
+    display: block;
+    position: absolute;
+    padding: 0 20px;
+    margin-left: 50px;
+    
+}
+svg{
+    border:2px solid lightblue; 
+    width:1000px; height:300px; 
+    margin-top:30px; 
+    border-radius: 5px;
+}

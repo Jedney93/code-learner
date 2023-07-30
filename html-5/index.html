@@ -4,30 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML-5</title>
-    <style>
-        table{
-            border-collapse: collapse;
-        }
-        td, th{
-            border: 2px solid blue;
-            padding: 10px;
-            border-radius: 3px;
-        }
-
-
-    </style>
+   <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
     <header>
         <h1>My another website  </h1>
         <nav>
-            <a href="#">home</a>
-            <a href="#">blog</a>
+            <ul>
+                <li><a href="">Home
+                    <ul class="drop">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Hide</a></li>
+                        <li><a href="">About</a></li>
+                    </ul>
+                </a></li>
+                <li><a href="">Blog
+                    <ul class="drop">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Hide</a></li>
+                        <li><a href="">About
+                            <ul class="drop">
+                                <li><a href="">Home</a></li>
+                                <li><a href="">Blog</a></li>
+                                <li><a href="">Hide</a></li>
+                                <li><a href="">About</a></li>
+                            </ul>
+                        </a></li>
+                    </ul>
+                </a></li>
+                <li><a href="">Hide</a></li>
+                <li><a href="">About</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <section></section>
+        <section>
             <article>
                 <h1>heading  1</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, rerum atque cum ipsum nesciunt sed pariatur fuga fugiat esse similique, architecto in veritatis reiciendis suscipit alias, praesentium aut quod neque.</p>
@@ -117,6 +131,17 @@
 
 
         </form>
+        <section>
+            <svg > 
+                <rect x="30" y="30" width="300px" height="200px" fill="green" ></rect>
+
+                <circle cx="180" cy="130" r="75" fill="red">  </circle>
+                <circle cx="155" cy="100" r="15" fill="white"> </circle>
+                <circle cx="210" cy="100" r="15" fill="white"> </circle>
+                <path d="M210  150 A1,0.1 0 1,1 150 150" stroke="white" stroke-width="05"> </path>
+            </svg>
+
+        </section>
           
 
 
