@@ -62,3 +62,30 @@ svg{
     border: 2px solid red;
     overflow: scroll;
 }
+#trnsfrm{
+    display: flex;
+}
+.box, .inner{
+    width: 150px;
+    height: 150px;
+    
+    
+}
+.bin{
+    border: 2px solid limegreen;
+    background-color: antiquewhite;
+    
+    margin-top: 20px
+}
+.inner{
+    background-color: chartreuse;
+    transform:  scale(.75) rotate(315deg);
+    transition: width 2s,transfrom 2s,background-color 2s ;
+    
+}
+.inner:hover{
+    width: 200px ;
+    transform: rotate(70deg)    ;
+    background-color: blueviolet;
+
+}
