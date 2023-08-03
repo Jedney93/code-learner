@@ -1,3 +1,36 @@
+@keyframes slide {
+    0%{
+        background-color: hsl(309, 97%, 50%);
+        left: 0;
+        top: 0;
+    }
+    50%{
+       top:250px; 
+       transform: scale(.50);
+    }
+    100%{
+        background-color: rgb(10, 6, 244);
+        left: 400px;
+        top: 0;
+    }
+}
+.boxan{
+    background-color: aqua;
+    width: 450px;
+    height: 300px;
+}
+.ballan{
+    background-color: hsl(309, 97%, 50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    animation: slide 2s ease-in-out 0.5s infinite alternate ;
+    animation-play-state: running;
+
+}
+
+
 table{
     border-collapse: collapse;
 }
@@ -79,13 +112,13 @@ svg{
 }
 .inner{
     background-color: chartreuse;
-    transform:  scale(.75) rotate(315deg);
+    transform:  scale(.75) rotate(45deg);
     transition: width 2s,transfrom 2s,background-color 2s ;
     
 }
 .inner:hover{
     width: 200px ;
-    transform: rotate(70deg)    ;
+     transform: rotate(70deg)    ;
     background-color: blueviolet;
 
 }
