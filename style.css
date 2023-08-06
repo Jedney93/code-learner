@@ -6,36 +6,16 @@ a{
     font-size: 30px;
     margin-left: 100px;
 }
+a:visited{
+    color: rgb(230, 14, 158);
+}
+
 img{
     height: 70px;
     width: 200px;
     margin-left: 200px ;
     padding: 10px;
 
-}
-
-}
-input{
-    display:block;
-    border: 3px solid red;
-    padding: 3px;
-}
-ol:hover{
-    background-color: blanchedalmond;
-    width: 50%;
-    color: blueviolet;
-    margin-bottom: 20px;
-}
-a{
-    text-decoration: none;
-    
-}
-a:visited{
-    color: rgb(230, 14, 158);
-}
-input:focus{
-    color: rgb(10, 243, 96);
-    font-size: 20px;
 }
 li:first-child{
   color: aqua;
@@ -45,6 +25,21 @@ li:last-child{
 }
 li:nth-child(2n){
     color: blueviolet;
+}
+input{
+    border: 3px solid red;
+    padding: 3px;
+}
+ol:hover{
+    background-color: blanchedalmond;
+    width: 50%;
+    color: blueviolet;
+    margin-bottom: 20px;
+}
+
+input:focus{
+    color: rgb(10, 243, 96);
+    font-size: 20px;
 }
 
 h3::after {
